@@ -1,11 +1,8 @@
 <?php
 
-defined('MOODLE_INTERNAL') or die();
+defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2014110600;
-$plugin->release = '1.0 RC (Build 2011121300)';
-$plugin->requires = 2010112400; // Moodle 2.x
-$plugin->cron = 0;
-$plugin->component = 'enrol_paynow';
-$plugin->maturity = MATURITY_RC;
-
+$plugin->version   = 2018092501;        // The current plugin version (Date: YYYYMMDDXX)
+$plugin->requires  = 2018050800;        // Requires this Moodle version
+$plugin->component = 'enrol_paynow';    // Full name of the plugin (used for diagnostics)
+$plugin->maturity = MATURITY_STABLE;
